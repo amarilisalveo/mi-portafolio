@@ -10,7 +10,7 @@ html {
 }
 * {
   margin: 0;
-  cursor: none;
+
 }
 #no-scroll {
   overflow: hidden;
@@ -61,7 +61,5 @@ html {
 
 
 @media (max-width: 767px) {
-  .cursor{
-    display: none;
-  }
+
 }

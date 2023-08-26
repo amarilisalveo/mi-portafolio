@@ -1,9 +1,10 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import Text from '../components/Text'
 import {
-  AiFillGithub,
+  
+  AiOutlineGoogle,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import "../pages/style.css";
@@ -15,26 +16,23 @@ function Home() {
       <Container>
         <Row>
           <Col md={7}>
-            <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
-            <h2 className='nametext'>Im Rahul Vijay</h2>
+            <h2 className='headtext'>Hola <span className='wave'>👋 </span></h2>
+            <h2 className='nametext'>Soy Amarilis</h2>
             <span></span>
             <Text />
             <button onClick={() => {
-              window.open("https://github.com/rahulvijay81");
+             window.location ='mailto:amariveth@gmail.com';
             }}
-              className='socailmediabtn'><AiFillGithub className='icon' /></button>
+              className='socailmediabtn'>< AiOutlineGoogle  className='icon' /></button>
             <button onClick={() => {
-              window.open("https://www.linkedin.com/in/rahulvijay81/");
+              window.open("https://www.linkedin.com/in/amarilis-alveo/");
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
             <button onClick={() => {
-              window.open("https://twitter.com/rahulvijay8156");
+              window.open("https://github.com/amarilisalveo");
             }}
-              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
-            <button onClick={() => {
-              window.open("https://instagram.com/rahulvijay81");
-            }}
-              className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+              className='socailmediabtn'><AiOutlineGithub className='icon' /></button>
+            
           </Col>
 
           <Col md={5}>

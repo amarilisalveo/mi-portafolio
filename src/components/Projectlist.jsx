@@ -1,10 +1,10 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
-import adminpanel from '/src/assets/images/adminpanel.jpg'
-import olximage from "/src/assets/images/olximage.jpg";
-import netfliximage from "/src/assets/images/netflix.jpg";
-import gridlinesbuilders from "/src/assets/images/Gridlinesbuilders.jpg";
-import charlespizza from "/src/assets/images/pizza.jpg";
+import reachhigher from '/src/assets/images/reach-higher.jpg'
+import masercondosales from "/src/assets/images/maser-condorsales.jpg";
+import netfliximage from "/src/assets/images/superexploder.jpg";
+import nickjr from "/src/assets/images/nickjr-sweepstakes.jpg";
+import multibank from "/src/assets/images/multibank.jpg";
 import todolist from "/src/assets/images/todolist.jpg";
 import "../pages/style.css";
 
@@ -17,21 +17,23 @@ function Projectlist() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={adminpanel}
+                imgPath={reachhigher}
                 isBlog={false}
-                title="Dashboard Panel"
-                description="User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration."
-                ghLink="https://rahul-dashboard-pannel.netlify.app"
+                title="Reach Higher"
+                description="Desarrollado en WordPress con el tema de Divi, plugins,
+                JavaScript , Jquery y CSS."
+                ghLink="https://www.reachhigher.org/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={olximage}
+                imgPath={masercondosales}
                 isBlog={false}
-                title="Olx-Clone"
-                description="Olx-clone builds with react js. using firebase as a backend and deploying in firebase. Olx-Clone is a potential classified advertisement website that categorizes objects in a user-friendly manner & displays them as advertisements.. Classifieds can be posted that involve selling, and buying using React-router, context, react hooks."
-                ghLink="https://olx-clone-rahul.netlify.app/"
+                title="Maser Condor Sales"
+                description="Se desarrollaron las paginas en WordPress con el tema WPBakery
+                Builder, plugins y CSS."
+                ghLink="https://www.masercondosales.com/"
               />
             </Col>
 
@@ -39,41 +41,37 @@ function Projectlist() {
               <ProjectCard
                 imgPath={netfliximage}
                 isBlog={false}
-                title="Netflix-Clone"
-                description="This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie."
+                title="Superexploder"
+                description="Se desarrollo en WordPress con el tema Divi, plugins,
+                CSS, Google analytics y flexbox"
                 ghLink="https://react-netflixweb-clone.netlify.app/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={gridlinesbuilders}
+                imgPath={nickjr}
                 isBlog={false}
-                title="Grid Line Builders"
-                description="Grid line builders is a static webpage built with HTML, CSS, and JavaScript. Users can see images of their work and contact information that helps to connect the home builders through a webpage. webpage builds responsive to multiple sizes of devices."
-                ghLink="https://gridlinesbuilders.in/"
+                title="Nick Jr Sweepstakes"
+                description="Mantenimiento de
+                modulos creados para el single page application utilizando
+                React.js , sass y  webpack."
+                ghLink="https://www.nickjrsweepstakes.com/ "
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={charlespizza}
+                imgPath={multibank}
                 isBlog={false}
-                title="Charlestown Pizza"
-                description="Charlestown pizza is a static website completely build with bootstrap with fully responsive."
-                ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
+                title="Multibank"
+                description="Mantenimiento de la pagina de Multibank desarrollada con
+                HTML,CSS, ASP."
+                ghLink="https://www.multibank.com.pa/es"
               />
             </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={todolist}
-                isBlog={false}
-                title="To Do List"
-                description=" To-Do App that build will allow a user to add a task to a list of to-do items. Once the task is added, the user will be able to delete it as completed once it has done."
-                ghLink="https://todolist-rahul81.netlify.app/"
-              />
-            </Col>
+            
           </Row>
         </Container>
       </Container>
