@@ -1,11 +1,11 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
 import reachhigher from "../assets/images/reach-higher.jpg";
-import masercondosales from "/src/assets/images/maser-condorsales.jpg";
-import netfliximage from "/src/assets/images/superexploder.jpg";
-import nickjr from "/src/assets/images/nickjr-sweepstakes.jpg";
-import multibank from "/src/assets/images/multibank.jpg";
-import todolist from "/src/assets/images/todolist.jpg";
+import masercondosales from "../assets/images/maser-condorsales.jpg";
+import netfliximage from "../assets/images/superexploder.jpg";
+import nickjr from "../assets/images/nickjr-sweepstakes.jpg";
+import multibank from "../assets/images/multibank.jpg";
+import todolist from "../assets/images/todolist.jpg";
 import "../pages/style.css";
 
 
