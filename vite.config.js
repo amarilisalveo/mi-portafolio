@@ -18,6 +18,9 @@ export default defineConfig({
       '.ts',
       '.tsx',
       '.vue',
+      '.png',
+      '.jpg',
+
     ],
   },
 })
