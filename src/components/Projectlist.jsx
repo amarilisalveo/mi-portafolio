@@ -1,6 +1,6 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
-
+import reachhigher from "../assets/images/reach-higher.jpg";
 import masercondosales from "/src/assets/images/maser-condorsales.jpg";
 import netfliximage from "/src/assets/images/superexploder.jpg";
 import nickjr from "/src/assets/images/nickjr-sweepstakes.jpg";
@@ -17,7 +17,7 @@ function Projectlist() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                
+                imgPath={reachhigher}
                 isBlog={false}
                 title="Reach Higher"
                 description="Desarrollado en WordPress con el tema de Divi, plugins,
