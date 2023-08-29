@@ -15,7 +15,7 @@ function ProjectCard(props) {
           {props.description}
         </Card.Text>
         <Button className="viewbtn" variant="primary" href={props.ghLink} target="_blank">
-          View
+          Ver
         </Button>
 
 

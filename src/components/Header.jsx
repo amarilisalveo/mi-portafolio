@@ -86,7 +86,7 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1fV6nhpAggA4NhAVI32OvzB3yXb-JZ086/view?usp=drive_link"
+                "https://drive.google.com/file/d/1OBbwPFaWkKHs3ytCvml2ME8IjVQJY94y/view?usp=sharing"
               );
             }}
             className="resumebtn"
