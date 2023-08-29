@@ -44,7 +44,7 @@ function Projectlist() {
                 title="Superexploder"
                 description="Se desarrollo en WordPress con el tema Divi, plugins,
                 CSS, Google analytics y flexbox"
-                ghLink="https://react-netflixweb-clone.netlify.app/"
+                ghLink="https://superexploder.com/"
               />
             </Col>
 
