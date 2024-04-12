@@ -7,7 +7,7 @@ function Contactpage() {
       <Container>
         <h2 className="contacthead">Envia un mensaje</h2>
         <p className="contactpara">
-        Actualmente estoy buscando oportunidades para un puesto de desarrollador front-end.
+        Actualmente estoy buscando oportunidades para un puesto de desarrollador.
          <br /> Si hay alguna vacante mi bandeja de entrada está siempre abierta.
          <br />
           ¡Respondere lo mas pronto posible!
