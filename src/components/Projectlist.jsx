@@ -5,6 +5,7 @@ import masercondosales from "/assets/images/maser-condorsales.jpg";
 import netfliximage from "/assets/images/superexploder.jpg";
 import nickjr from "/assets/images/nickjr-sweepstakes.jpg";
 import multibank from "/assets/images/multibank.jpg";
+import goldenfrog from "/assets/images/golden-frog-app.png"
 
 import "../pages/style.css";
 
@@ -15,6 +16,19 @@ function Projectlist() {
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+            
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={goldenfrog}
+                isBlog={false}
+                title="Golden frog App"
+                description="Pagina web creada como proyecto universitario el cual consistia en conectar Firebase y las interfaces de React.js"
+                ghLink="https://golden-frog-app.netlify.app/"
+              />
+            </Col>
+
+            
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={reachhigher}
